@@ -1,0 +1,222 @@
+@charset "UTF-8";
+.
+}
+.imagediv {
+  width: 100%;
+  display: block;
+  align-content: center;
+  margin-left: 0px;
+}
+.container {
+  padding-top: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+.sectionleft {
+  width: 31%;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  column-fill: balance;
+  max-width: 31%;
+}
+.sectionmiddle {
+  width: 31%;
+  display: block;
+  float: left;
+  margin-left: 12px;
+  margin-right: 15px;
+  text-align: left;
+  column-fill: balance;
+  max-width: 31%;
+}
+}
+.sectionright {
+  width: 31%;
+  display: block;
+  float: right;
+  margin-left: 15px;
+  margin-right: 10px;
+  text-align: justify;
+  column-fill: balance;
+  max-width: 31%;
+}
+}
+.container {
+  padding: 150px;
+  width: 100%;
+}
+.textdiv {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size: medium;
+  color: #4C4C4C;
+  background-color: #FEFEFE;
+  width: 80%;
+  padding-top: 150;
+}
+.footer {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+  clear: both;
+}
+.container {
+  width: 100%;
+}
+.imagediv {
+  display: block;
+  width: 100%;
+}
+.navbar {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #9181C2;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 20%;
+  margin-left: 25px;
+}
+.textdiv {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  font-size: small;
+  color: #4E4E4E;
+  width: 80%;
+}
+.footer {
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  font-size: 10px;
+  color: #454545;
+  text-align: center;
+}
+.navleft {
+  background-color: #9480C7;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  list-style-type: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ul li {
+  list-style: none margin:0 20px;
+  transition: 0.5s;
+}
+ul li a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+ul:hover li a {
+  transform: scale(1.5);
+  opacity: 0.2;
+  filter: blur(5px);
+}
+ul li a:hover {
+  transform: scale(2);
+  opacity: 1;
+  filter: blur(0);
+  text-decoration: none;
+  color: #fff;
+}
+ul li a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 115%;
+  height: 115%;
+  background: #AE8D49;
+  transition: 0.5s;
+  transform-origin: right;
+  transform: scaleX(0);
+  z-index: -1;
+}
+ul li a:hover:before {
+  transition: transform 0.5s;
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.h1 {
+  font-style: bold;
+  font-size: xx-large;
+}
+.background image {
+  background-attachment: scroll;
+  background-image: url(../Images/Logo%20copy%202.png);
+  background-position: center center;
+}
+.container .navleft ul {
+  background-attachment: scroll;
+  background-image: url(../Images/Logo%20copy%202.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: static;
+  visibility: visible;
+}
+.form {
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  font-size: small;
+  text-decoration: none;
+  background-color: #A78FCD;
+  text-align: left;
+  padding-top: 65px;
+}
+.formbox {
+  padding-top: 61px;
+  padding-right: inherit;
+  padding-left: inherit;
+  padding-bottom: inherit;
+  width: 80%;
+  min-width: 0px;
+  margin-top: 32px;
+}
+.formmessage {
+  padding-top: 96px;
+  padding-right: auto;
+  padding-bottom: 79px;
+  width: 80%;
+  max-width: none;
+  margin-top: 22px;
+}
+.sectionlefthalf {
+  width: 48%;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  column-fill: balance;
+  max-width: 48%;
+}
+}
+.sectionrighthalf {
+	width: 48%;
+	display: block;
+	float: right;
+	margin-left: 15px;
+	margin-right: 10px;
+	text-align: justify;
+	column-fill: balance;
+	max-width: 48%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	visibility: hidden;
+}
